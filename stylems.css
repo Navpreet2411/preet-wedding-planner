@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Pacifico&family=Roboto&family=Satisfy&display=swap');
+*{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin: 0; padding: 0%;
+    transition: 1s;
+    text-decoration: none;
+}
+
+*section{
+    background-color: var(--pink);
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(2, 2, 58) ;
+}
+
+section{
+    padding: 4rem;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0; 
+    background:rgb(248, 0, 95);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    color: white;
+}
+
+#about{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .logo{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 10px ;
+    padding-left: 5px;
+    padding-bottom: 10px ;
+    margin-left: 15px;
+}
+
+header .logo:hover{
+    color:rgb(248, 0, 95);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+header .navbar a{
+    font-size: 24px;
+    color:rgb(255, 255, 255);
+    padding-top: 5px ;
+    padding-bottom: 5px;   
+    padding-right: 15px;
+    margin-right: 5px;
+}
+
+header .navbar a:hover{
+    color: rgb(248, 0, 95);
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.slider{
+    min-height: 130vh;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    height: absolute;
+    background: url('images/homebg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: pulse 3sec infinite linear;
+    animation-duration: 15s;
+    animation-delay: 2s;
+}
+
+.content span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    color:rgb(248, 0, 95);
+    font-weight: lighter;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+
+.content h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5rem;
+    color:rgb(255, 255, 255);
+    background-color: rgba(248, 0, 95, 0.452);
+}
+
+.step-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.step-box .step{
+    background:  rgb(255, 255, 255);
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem black;
+    text-align: center;
+    flex: 1 1 30rem;
+}
+
+.step-box .step span{
+    font-size: 4rem;
+    color: rgb(248, 0, 95);
+    font-weight: bolder;
+}
+
+.step-box .step h3{
+    font-size: 3rem;
+    color: rgb(2, 2, 58);
+    font-weight: bold;
+}
+
+.step-box .step p{
+    font-size: 24px;
+}
+
+.footer{
+    padding: 2rem;
+   text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+/*Client page*/
+
+.clients .row{
+    display: flex;
+  }
+  
+  .clients .row .divider{
+    padding:0 1rem;
+  }
+  
+  .clients .row .box-container .box img{
+    height: 30rem;
+    width:100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    border:2rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.9);
+  }
+  
+  .clients .row .box-container .box .info{
+    padding:2rem 0;
+  }
+  
+  .clients .row .box-container .box .info h3{
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    color:#fff;
+  }
+  
+  .clients .row .box-container .box .info p{
+    margin-left: 3rem;
+    font-size: 1.7rem;
+    color:#aaa;
+    position: right;
+    padding:1rem 0;
+    font-style: italic;
+  }
+  
+  .clients .row .box-container .box .info p i{
+    color:var(--pink);
+    padding:0 .5rem;
+  }
+
+
+   
+.clients .row{
+    display: flex;
+  }
+  
+  .clients .row .divider{
+    padding:0 1rem;
+  }
+  
+  .clients .row .box-container .box img{
+    height: 30rem;
+    width:100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    border:2rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.9);
+  }
+  
+  .clients .row .box-container .box .info{
+    padding:2rem 0;
+  }
+  
+  .clients .row .box-container .box .info h3{
+    font-size: 2.5rem;
+    color:#fff;
+  }
+  
+  .clients .row .box-container .box .info p{
+    font-size: 1.7rem;
+    color:#aaa;
+    padding:1rem 0;
+    font-style: italic;
+  }
+  
+  .clients .row .box-container .box .info p i{
+    color:var(--pink);
+    padding:0 .5rem;
+  }
+
+.container header .logo{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 10px ;
+    padding-left: 5px;
+    padding-bottom: 10px ;
+    margin-left: 15px;
+}
+
+
+  /*TEAM SECTION BEGINS*/
+
+
+
+.team .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team .box-container .box{
+  margin:1rem;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.9);
+  background:#fff url(../images/card-bg.png) no-repeat;
+  padding:4.7rem 2rem;
+  text-align: center;
+  background-size: cover;
+  flex:1 1 33rem;
+}
+
+.team .box-container .box img{
+  border-radius: 50%;
+  object-fit: cover;
+  height: 15rem;
+  width:15rem;
+  padding:1rem;
+}
+
+.team .box-container .box h3{
+  font-size: 2.5rem;
+  color:var(--black);
+}
+
+.team .box-container .box span{
+  font-size: 2rem;
+  color:var(--pink);
+}
+
+.team .box-container .box p{
+  font-size: 1.5rem;
+  color:#333;
+  padding:1rem 0;
+}
+
+.team .box-container .box .share{
+  padding:1rem 0;
+}
+
+.team .box-container .box .share a{
+  height: 4rem;
+  width:4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  color:var(--black);
+  background:#eee;
+}
+
+.team .box-container .box .share a:hover{
+  color:#fff;
+  background: var(--pink);
+}
+
+.heading{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*CONTACT PAGE*/
+
+.contact form{
+    padding:2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.9);
+    text-align: center;
+  }
+  
+  .contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact form .inputBox input, .contact form textarea{
+    border:.2rem solid rgba(0,0,0,.1);
+    font-size: 1.7rem;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    text-transform: none;
+    color:#333;
+  }
+  
+  .contact form .inputBox input{
+    width:49%;
+  }
+  
+  .contact form textarea{
+    height: 15rem;
+    width:100%;
+    resize: none;
+  }
+  
+  .contact form .inputBox input::placeholder,
+  .contact form textarea::placeholder{
+    text-transform: capitalize;
+  }
+  
+  .contact form .inputBox input:focus,
+  .contact form textarea:focus{
+    border-color: var(--pink);
+  }
+  
+  .blog .box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
